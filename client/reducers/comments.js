@@ -1,6 +1,5 @@
 
 function postComments(state = [], action) {
-  console.log('+++++++++++');
   switch(action.type) {
     case 'ADD_COMMENT':
       return [...state, {
